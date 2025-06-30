@@ -1,0 +1,45 @@
+# Requirements for Quantum-Enhanced CNN Optimization Project
+
+# -----------------------------
+# Adam vs Hybrid (quantum_adam_hybrid/)
+# -----------------------------
+torch>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+pandas>=1.5.0
+# For Adam-only and hybrid (Adam+quantum) models
+# Hybrid model also requires Qiskit for quantum optimizer:
+qiskit>=0.44
+qiskit-aer>=0.12.0
+qiskit-algorithms>=0.2
+
+# -----------------------------
+# Quantum Gradient Descent (quantum_gradient_descent/)
+# -----------------------------
+torch>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+qiskit>=0.44
+qiskit-aer>=0.12.0
+qiskit-algorithms>=0.2
+# For fully quantum gradient descent optimizer
+
+# -----------------------------
+# Quantum Variational Optimizer (quantum_variational_optimizer/)
+# -----------------------------
+torch>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+qiskit>=0.44
+qiskit-aer>=0.12.0
+qiskit-algorithms>=0.2
+qiskit-machine-learning>=0.6.0
+# For fully quantum variational optimizer (VQE-style)
+
+# -----------------------------
+# Dataset Analysis (dataset_classification/)
+# -----------------------------
+torchvision>=0.15.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+# For dataset analysis and visualization 
